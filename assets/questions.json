@@ -1,0 +1,15 @@
+[{
+  "question" : "Where I can find common abbreviations used in TradeStation response messages?",
+  "answer": "The abbreviations that we use at our web API responses are at our documentations, you can check visit our <a href=\"https://tradestation.github.io/api-docs/\" target=\"_blank\">official docs.</a>",
+  "tags" : ["abbreviantions", "reponse"]
+}, 
+{
+  "question" : "How to understand the meaning of status numbers returned with bar chart streams and other streams?",
+  "answer": "<span>The status value  is a decimal representation of a bit map or a binary number(i.e. 13 -> …000001101 and 29 -> …00011101), which mean that there are some bits “turned on”. This could be understood as a boolean representation of each state.  This represantion should match with the bite array documented at our <a href=\"https://tradestation.github.io/api-docs/\" target=\"_blank\">official docs</a>.</span> <br> <span> In order to translate this value to meaningful status info. First convert the decimal value to binary and compare it with the bit map array explained at each stream end point <a href=\"https://tradestation.github.io/api-docs/#tag/marketdata\"  target=\"_blank\">here</a>.</span> and then you will get the status that are present shown with a 1.",
+  "tags" : ["order", "status", "code"]
+},
+{
+  "question":"How can I get in touch with the support team for additional questions.",
+  "answer": "If have any question that was not covered here, we encorage to contact us at <a href=\"mailto:webapi@tradestation.com\" target=\"_top\">webapi@tradestation.com</a>.",
+  "tags":["contact"]
+}]
